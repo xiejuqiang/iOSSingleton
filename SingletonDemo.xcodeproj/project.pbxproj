@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		56403CBA1D87B45200406564 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56403CB91D87B45200406564 /* main.m */; };
-		56403CBD1D87B45200406564 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56403CBC1D87B45200406564 /* AppDelegate.m */; };
-		56403CC01D87B45200406564 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56403CBF1D87B45200406564 /* ViewController.m */; };
 		56403CC31D87B45200406564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56403CC11D87B45200406564 /* Main.storyboard */; };
 		56403CC51D87B45200406564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56403CC41D87B45200406564 /* Assets.xcassets */; };
 		56403CC81D87B45200406564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56403CC61D87B45200406564 /* LaunchScreen.storyboard */; };
 		56403CD31D87B45200406564 /* SingletonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56403CD21D87B45200406564 /* SingletonDemoTests.m */; };
 		56403CDE1D87B45200406564 /* SingletonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56403CDD1D87B45200406564 /* SingletonDemoUITests.m */; };
+		56403CF71D87B45F00406564 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56403CEC1D87B45F00406564 /* AppDelegate.m */; };
+		56403CF81D87B45F00406564 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56403CEE1D87B45F00406564 /* ViewController.m */; };
+		56403CF91D87B45F00406564 /* LaoSiJiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56403CF01D87B45F00406564 /* LaoSiJiManager.m */; };
+		56403CFA1D87B45F00406564 /* LaoSiJiManager2.m in Sources */ = {isa = PBXBuildFile; fileRef = 56403CF21D87B45F00406564 /* LaoSiJiManager2.m */; };
+		56403CFB1D87B45F00406564 /* LaoSiJiManager3.m in Sources */ = {isa = PBXBuildFile; fileRef = 56403CF41D87B45F00406564 /* LaoSiJiManager3.m */; };
+		56403CFC1D87B45F00406564 /* LaoSiJiManager4.m in Sources */ = {isa = PBXBuildFile; fileRef = 56403CF61D87B45F00406564 /* LaoSiJiManager4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,6 @@
 /* Begin PBXFileReference section */
 		56403CB51D87B45200406564 /* SingletonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingletonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56403CB91D87B45200406564 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		56403CBB1D87B45200406564 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		56403CBC1D87B45200406564 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		56403CBE1D87B45200406564 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		56403CBF1D87B45200406564 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		56403CC21D87B45200406564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56403CC41D87B45200406564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56403CC71D87B45200406564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,18 @@
 		56403CD91D87B45200406564 /* SingletonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56403CDD1D87B45200406564 /* SingletonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonDemoUITests.m; sourceTree = "<group>"; };
 		56403CDF1D87B45200406564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56403CEB1D87B45F00406564 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56403CEC1D87B45F00406564 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56403CED1D87B45F00406564 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		56403CEE1D87B45F00406564 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56403CEF1D87B45F00406564 /* LaoSiJiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaoSiJiManager.h; sourceTree = "<group>"; };
+		56403CF01D87B45F00406564 /* LaoSiJiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaoSiJiManager.m; sourceTree = "<group>"; };
+		56403CF11D87B45F00406564 /* LaoSiJiManager2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaoSiJiManager2.h; sourceTree = "<group>"; };
+		56403CF21D87B45F00406564 /* LaoSiJiManager2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaoSiJiManager2.m; sourceTree = "<group>"; };
+		56403CF31D87B45F00406564 /* LaoSiJiManager3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaoSiJiManager3.h; sourceTree = "<group>"; };
+		56403CF41D87B45F00406564 /* LaoSiJiManager3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaoSiJiManager3.m; sourceTree = "<group>"; };
+		56403CF51D87B45F00406564 /* LaoSiJiManager4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaoSiJiManager4.h; sourceTree = "<group>"; };
+		56403CF61D87B45F00406564 /* LaoSiJiManager4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaoSiJiManager4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +113,18 @@
 		56403CB71D87B45200406564 /* SingletonDemo */ = {
 			isa = PBXGroup;
 			children = (
-				56403CBB1D87B45200406564 /* AppDelegate.h */,
-				56403CBC1D87B45200406564 /* AppDelegate.m */,
-				56403CBE1D87B45200406564 /* ViewController.h */,
-				56403CBF1D87B45200406564 /* ViewController.m */,
+				56403CEB1D87B45F00406564 /* AppDelegate.h */,
+				56403CEC1D87B45F00406564 /* AppDelegate.m */,
+				56403CED1D87B45F00406564 /* ViewController.h */,
+				56403CEE1D87B45F00406564 /* ViewController.m */,
+				56403CEF1D87B45F00406564 /* LaoSiJiManager.h */,
+				56403CF01D87B45F00406564 /* LaoSiJiManager.m */,
+				56403CF11D87B45F00406564 /* LaoSiJiManager2.h */,
+				56403CF21D87B45F00406564 /* LaoSiJiManager2.m */,
+				56403CF31D87B45F00406564 /* LaoSiJiManager3.h */,
+				56403CF41D87B45F00406564 /* LaoSiJiManager3.m */,
+				56403CF51D87B45F00406564 /* LaoSiJiManager4.h */,
+				56403CF61D87B45F00406564 /* LaoSiJiManager4.m */,
 				56403CC11D87B45200406564 /* Main.storyboard */,
 				56403CC41D87B45200406564 /* Assets.xcassets */,
 				56403CC61D87B45200406564 /* LaunchScreen.storyboard */,
@@ -270,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56403CC01D87B45200406564 /* ViewController.m in Sources */,
-				56403CBD1D87B45200406564 /* AppDelegate.m in Sources */,
+				56403CFA1D87B45F00406564 /* LaoSiJiManager2.m in Sources */,
+				56403CF81D87B45F00406564 /* ViewController.m in Sources */,
+				56403CF91D87B45F00406564 /* LaoSiJiManager.m in Sources */,
+				56403CFB1D87B45F00406564 /* LaoSiJiManager3.m in Sources */,
+				56403CFC1D87B45F00406564 /* LaoSiJiManager4.m in Sources */,
+				56403CF71D87B45F00406564 /* AppDelegate.m in Sources */,
 				56403CBA1D87B45200406564 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
