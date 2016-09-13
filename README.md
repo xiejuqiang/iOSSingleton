@@ -1,8 +1,7 @@
 
 
 ####简书地址：[点击这里：简书地址](http://www.jianshu.com/users/3930920b505b/latest_articles)
-##先来个广告：
-####[高仿内涵段子app源码，一个你值得收藏的项目源码https://github.com/Charlesyaoxin/NeiHanDuanZI](https://github.com/Charlesyaoxin/NeiHanDuanZI)
+##先来个广告：[高仿内涵段子app源码，一个你值得收藏的项目源码https://github.com/Charlesyaoxin/NeiHanDuanZI](https://github.com/Charlesyaoxin/NeiHanDuanZI)
 #####进入正题
 ![单例.png](http://upload-images.jianshu.io/upload_images/939127-c6892ac488a4caf7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
